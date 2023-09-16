@@ -1,20 +1,43 @@
 body {
-	display: flex;
-	flex-direction: column;
+        display: flex;
+        flex-direction: column;
 }
 main {
-	display: flex;
-	flex-direction: row;
-	flex: auto;
+        display: flex;
+        flex-direction: row;
+        flex: auto;
 }
 article {
-	flex: 2;
-	overflow-y: auto;
+        flex: 2;
+        overflow-y: auto;
+        background-color: #040D12;
+        color: #fff
 }
 aside {
-	flex: 1;
-	overflow-y: auto;
+        flex: 1;
+        overflow-y: auto;
+        background-color: #282D35;
 }
 #pic {
-	width: 100%;
+        width: 100%;
+}
+header {
+        background-color:#183D3D;
+}
+ul li a {
+        color: #000000;
+        
+}
+ul li a:hover {
+        color:#AAC8A7;
+}
+footer {
+        background-color: #5C8374;
+        text-align: right;
+}
+footer p a {
+        color: #CBFFA9
+}
+h1,h2,h3 {
+        color: #05BFDB
 }
