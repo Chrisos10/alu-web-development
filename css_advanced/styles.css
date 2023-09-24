@@ -331,8 +331,8 @@ line-height: normal;
 .fifth_section_in_div {
     flex-direction: row;
 }
-.Q_and_A {
-    padding-right: 100px;
+.Title {
+    padding-right: 150px;
     text-align: center;
     color: #071629;
     font-size: 60px;
